@@ -1,0 +1,107 @@
+Oracle A1 抢机脚本使用说明（nohup 版本）
+1. 启动脚本（后台运行，断线不中断）
+在服务器中执行：
+
+代码
+nohup bash /opt/oracle_create/run.sh > /opt/oracle_create/run.log 2>&1 &
+说明：
+
+nohup：SSH 断线脚本继续运行
+
+&：放入后台
+
+日志写入 /opt/oracle_create/run.log
+
+启动后会显示 [1] 进程号，表示后台运行成功
+
+2. 查看脚本是否正在运行
+执行：
+
+代码
+ps aux | grep run.sh
+如果看到类似：
+
+代码
+ubuntu  123456  ... bash /opt/oracle_create/run.sh
+说明脚本正在后台运行。
+
+如果只看到：
+
+代码
+grep --color=auto run.sh
+说明脚本 没有运行。
+
+3. 查看实时日志（观察抢机情况）
+执行：
+
+代码
+tail -f /opt/oracle_create/run.log
+你会看到类似：
+
+代码
+2026-02-28 15:12:01 开始尝试创建实例...
+2026-02-28 15:12:45 创建失败：Out of host capacity.
+2026-02-28 15:12:46 创建失败，等待 10 秒后重试...
+退出日志查看：
+按 Ctrl + C
+
+4. 停止脚本（终止后台抢机）
+执行：
+
+代码
+pkill -f run.sh
+确认是否停止：
+
+代码
+ps aux | grep run.sh
+如果只剩下 grep，说明脚本已停止。
+
+5. 修改抢机间隔（例如从 30 秒改为 10 秒）
+编辑脚本：
+
+代码
+nano /opt/oracle_create/run.sh
+找到：
+
+代码
+sleep 30
+改成：
+
+代码
+sleep 10
+保存退出：
+
+Ctrl + O
+
+回车
+
+Ctrl + X
+
+修改后需要重新启动脚本（见第 1 步）。
+
+6. 抢到实例后会发生什么？
+日志会输出：
+
+代码
+实例创建成功！
+脚本自动退出循环
+
+后台进程自动结束
+
+不会重复创建实例
+
+你可以通过：
+
+代码
+oci compute instance list --compartment-id <你的OCID> --all
+查看是否出现 PROVISIONING / RUNNING 的 A1 实例。
+
+7. 常见问题说明
+● SSH 断线后脚本会停止吗？
+不会，nohup 会保持脚本继续运行。
+
+● 系统重启后脚本会自动启动吗？
+不会。如果需要开机自启，需要 systemd（你当前选择不使用）。
+
+● 可以用 1Panel 定时任务运行吗？
+不能。定时任务会重复启动多个 run.sh，造成严重问题。

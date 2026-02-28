@@ -1,0 +1,565 @@
+2026-02-28 14:35:56 开始尝试创建实例...
+2026-02-28 14:37:41 创建失败：ServiceError:
+{
+    "client_version": "Oracle-PythonSDK/2.167.3, Oracle-PythonCLI/3.74.2",
+    "code": "InternalError",
+    "logging_tips": "Please run the OCI CLI command using --debug flag to find more debug information.",
+    "message": "Out of host capacity.",
+    "opc-request-id": "51D909B77CFC4567B77CBFE924BB0C38/DB3241C50F8893DE348DA26950485882/6717C7C947CF64616B3D4045913BA63A",
+    "operation_name": "launch_instance",
+    "request_endpoint": "POST https://iaas.us-phoenix-1.oraclecloud.com/20160918/instances",
+    "status": 500,
+    "target_service": "compute",
+    "timestamp": "2026-02-28T06:37:41.139058+00:00",
+    "troubleshooting_tips": "See [https://docs.oracle.com/iaas/Content/API/References/apierrors.htm] for more information about resolving this error. If you are unable to resolve this issue, run this CLI command with --debug option and contact Oracle support and provide them the full error message."
+}
+2026-02-28 14:44:27 开始循环抢机...
+2026-02-28 14:44:27 开始尝试创建实例...
+2026-02-28 14:46:08 创建失败：ServiceError:
+{
+    "client_version": "Oracle-PythonSDK/2.167.3, Oracle-PythonCLI/3.74.2",
+    "code": "InternalError",
+    "logging_tips": "Please run the OCI CLI command using --debug flag to find more debug information.",
+    "message": "Out of host capacity.",
+    "opc-request-id": "6A5BA37CD440426F90F608AF95760D34/F1167A7971EDB23A2F8FA2695048581E/352EEF03CA8A44A9B0B2CB527FC2C35F",
+    "operation_name": "launch_instance",
+    "request_endpoint": "POST https://iaas.us-phoenix-1.oraclecloud.com/20160918/instances",
+    "status": 500,
+    "target_service": "compute",
+    "timestamp": "2026-02-28T06:46:08.491861+00:00",
+    "troubleshooting_tips": "See [https://docs.oracle.com/iaas/Content/API/References/apierrors.htm] for more information about resolving this error. If you are unable to resolve this issue, run this CLI command with --debug option and contact Oracle support and provide them the full error message."
+}
+2026-02-28 14:46:09 创建失败，等待 30 秒后重试...
+2026-02-28 14:46:39 开始尝试创建实例...
+2026-02-28 14:48:22 创建失败：ServiceError:
+{
+    "client_version": "Oracle-PythonSDK/2.167.3, Oracle-PythonCLI/3.74.2",
+    "code": "InternalError",
+    "logging_tips": "Please run the OCI CLI command using --debug flag to find more debug information.",
+    "message": "Out of host capacity.",
+    "opc-request-id": "3E04C2DA6B4B4744B3BFC5B90D2F9851/C01CEB1741FD7E1DB58FA26950485874/C227F8FFA04D7E01B450D38D2C811DE0",
+    "operation_name": "launch_instance",
+    "request_endpoint": "POST https://iaas.us-phoenix-1.oraclecloud.com/20160918/instances",
+    "status": 500,
+    "target_service": "compute",
+    "timestamp": "2026-02-28T06:48:22.062076+00:00",
+    "troubleshooting_tips": "See [https://docs.oracle.com/iaas/Content/API/References/apierrors.htm] for more information about resolving this error. If you are unable to resolve this issue, run this CLI command with --debug option and contact Oracle support and provide them the full error message."
+}
+2026-02-28 14:48:22 创建失败，等待 30 秒后重试...
+2026-02-28 14:48:52 开始尝试创建实例...
+2026-02-28 14:50:35 创建失败：ServiceError:
+{
+    "client_version": "Oracle-PythonSDK/2.167.3, Oracle-PythonCLI/3.74.2",
+    "code": "InternalError",
+    "logging_tips": "Please run the OCI CLI command using --debug flag to find more debug information.",
+    "message": "Out of host capacity.",
+    "opc-request-id": "45376FAD4487458494899782BA8AD62C/DB02703F47BBB8D23A90A2695048589F/0963352B88FB87C63B8A2266380E5229",
+    "operation_name": "launch_instance",
+    "request_endpoint": "POST https://iaas.us-phoenix-1.oraclecloud.com/20160918/instances",
+    "status": 500,
+    "target_service": "compute",
+    "timestamp": "2026-02-28T06:50:35.079876+00:00",
+    "troubleshooting_tips": "See [https://docs.oracle.com/iaas/Content/API/References/apierrors.htm] for more information about resolving this error. If you are unable to resolve this issue, run this CLI command with --debug option and contact Oracle support and provide them the full error message."
+}
+2026-02-28 14:50:35 创建失败，等待 30 秒后重试...
+2026-02-28 14:51:05 开始尝试创建实例...
+2026-02-28 14:52:48 创建失败：ServiceError:
+{
+    "client_version": "Oracle-PythonSDK/2.167.3, Oracle-PythonCLI/3.74.2",
+    "code": "InternalError",
+    "logging_tips": "Please run the OCI CLI command using --debug flag to find more debug information.",
+    "message": "Out of host capacity.",
+    "opc-request-id": "6188B1FA283A481988BBFEEAD1FF9CB0/20F586D037521A88BF90A2695048580B/3753604C26EF5875EDCB1408E1645111",
+    "operation_name": "launch_instance",
+    "request_endpoint": "POST https://iaas.us-phoenix-1.oraclecloud.com/20160918/instances",
+    "status": 500,
+    "target_service": "compute",
+    "timestamp": "2026-02-28T06:52:48.140840+00:00",
+    "troubleshooting_tips": "See [https://docs.oracle.com/iaas/Content/API/References/apierrors.htm] for more information about resolving this error. If you are unable to resolve this issue, run this CLI command with --debug option and contact Oracle support and provide them the full error message."
+}
+2026-02-28 14:52:48 创建失败，等待 30 秒后重试...
+2026-02-28 14:53:18 开始尝试创建实例...
+2026-02-28 14:55:02 创建失败：ServiceError:
+{
+    "client_version": "Oracle-PythonSDK/2.167.3, Oracle-PythonCLI/3.74.2",
+    "code": "InternalError",
+    "logging_tips": "Please run the OCI CLI command using --debug flag to find more debug information.",
+    "message": "Out of host capacity.",
+    "opc-request-id": "FF199F7E5FCF4B9B9EEC9E98427C2C51/DC61E8A7B2EEFA174591A269504858E6/57701A7D745E2650E5F3A3A04A8487B6",
+    "operation_name": "launch_instance",
+    "request_endpoint": "POST https://iaas.us-phoenix-1.oraclecloud.com/20160918/instances",
+    "status": 500,
+    "target_service": "compute",
+    "timestamp": "2026-02-28T06:55:01.852421+00:00",
+    "troubleshooting_tips": "See [https://docs.oracle.com/iaas/Content/API/References/apierrors.htm] for more information about resolving this error. If you are unable to resolve this issue, run this CLI command with --debug option and contact Oracle support and provide them the full error message."
+}
+2026-02-28 15:01:46 开始循环抢机...
+2026-02-28 15:01:46 开始尝试创建实例...
+2026-02-28 15:03:31 创建失败：ServiceError:
+{
+    "client_version": "Oracle-PythonSDK/2.167.3, Oracle-PythonCLI/3.74.2",
+    "code": "InternalError",
+    "logging_tips": "Please run the OCI CLI command using --debug flag to find more debug information.",
+    "message": "Out of host capacity.",
+    "opc-request-id": "0553311575904564A05588B316C90D2B/1AFE04695315E85F4193A26950485878/126EE3A1D6BB1C0445E0986F22C3E293",
+    "operation_name": "launch_instance",
+    "request_endpoint": "POST https://iaas.us-phoenix-1.oraclecloud.com/20160918/instances",
+    "status": 500,
+    "target_service": "compute",
+    "timestamp": "2026-02-28T07:03:30.559017+00:00",
+    "troubleshooting_tips": "See [https://docs.oracle.com/iaas/Content/API/References/apierrors.htm] for more information about resolving this error. If you are unable to resolve this issue, run this CLI command with --debug option and contact Oracle support and provide them the full error message."
+}
+2026-02-28 15:03:31 创建失败，等待 30 秒后重试...
+2026-02-28 15:03:41 开始尝试创建实例...
+2026-02-28 15:05:24 创建失败：ServiceError:
+{
+    "client_version": "Oracle-PythonSDK/2.167.3, Oracle-PythonCLI/3.74.2",
+    "code": "InternalError",
+    "logging_tips": "Please run the OCI CLI command using --debug flag to find more debug information.",
+    "message": "Out of host capacity.",
+    "opc-request-id": "5D648EC6A4CC45C2B13819853D0FDDD5/825E95D9AD423EC4B393A269504858F5/4D2DC29E5A1DA11249B66FC2FD86A636",
+    "operation_name": "launch_instance",
+    "request_endpoint": "POST https://iaas.us-phoenix-1.oraclecloud.com/20160918/instances",
+    "status": 500,
+    "target_service": "compute",
+    "timestamp": "2026-02-28T07:05:24.122681+00:00",
+    "troubleshooting_tips": "See [https://docs.oracle.com/iaas/Content/API/References/apierrors.htm] for more information about resolving this error. If you are unable to resolve this issue, run this CLI command with --debug option and contact Oracle support and provide them the full error message."
+}
+2026-02-28 15:05:24 创建失败，等待 30 秒后重试...
+2026-02-28 15:05:34 开始尝试创建实例...
+2026-02-28 15:07:16 创建失败：ServiceError:
+{
+    "client_version": "Oracle-PythonSDK/2.167.3, Oracle-PythonCLI/3.74.2",
+    "code": "InternalError",
+    "logging_tips": "Please run the OCI CLI command using --debug flag to find more debug information.",
+    "message": "Out of host capacity.",
+    "opc-request-id": "5F9456E844B84D2F85FE5562497CC649/34EFEC6BAD265BCD2394A26950485803/D0340EC17CD8F99B072ED67F3547F8BB",
+    "operation_name": "launch_instance",
+    "request_endpoint": "POST https://iaas.us-phoenix-1.oraclecloud.com/20160918/instances",
+    "status": 500,
+    "target_service": "compute",
+    "timestamp": "2026-02-28T07:07:15.970033+00:00",
+    "troubleshooting_tips": "See [https://docs.oracle.com/iaas/Content/API/References/apierrors.htm] for more information about resolving this error. If you are unable to resolve this issue, run this CLI command with --debug option and contact Oracle support and provide them the full error message."
+}
+2026-02-28 15:07:16 创建失败，等待 30 秒后重试...
+2026-02-28 15:07:26 开始尝试创建实例...
+2026-02-28 15:09:09 创建失败：ServiceError:
+{
+    "client_version": "Oracle-PythonSDK/2.167.3, Oracle-PythonCLI/3.74.2",
+    "code": "InternalError",
+    "logging_tips": "Please run the OCI CLI command using --debug flag to find more debug information.",
+    "message": "Out of host capacity.",
+    "opc-request-id": "D86B351F6BB34A8F9AEC29E0D556CBE6/4A9FE44C686EC4039394A269504858F6/5FBE08CCCC4A50411D1D4F837CA4943A",
+    "operation_name": "launch_instance",
+    "request_endpoint": "POST https://iaas.us-phoenix-1.oraclecloud.com/20160918/instances",
+    "status": 500,
+    "target_service": "compute",
+    "timestamp": "2026-02-28T07:09:08.631180+00:00",
+    "troubleshooting_tips": "See [https://docs.oracle.com/iaas/Content/API/References/apierrors.htm] for more information about resolving this error. If you are unable to resolve this issue, run this CLI command with --debug option and contact Oracle support and provide them the full error message."
+}
+2026-02-28 15:09:09 创建失败，等待 30 秒后重试...
+2026-02-28 15:09:19 开始尝试创建实例...
+2026-02-28 15:11:03 创建失败：ServiceError:
+{
+    "client_version": "Oracle-PythonSDK/2.167.3, Oracle-PythonCLI/3.74.2",
+    "code": "InternalError",
+    "logging_tips": "Please run the OCI CLI command using --debug flag to find more debug information.",
+    "message": "Out of host capacity.",
+    "opc-request-id": "9690BA83DD49491B972D3B1E2F65AF80/BDB8D53B3942C5330595A2695048588D/9A275E14451058D55393967F306F44D5",
+    "operation_name": "launch_instance",
+    "request_endpoint": "POST https://iaas.us-phoenix-1.oraclecloud.com/20160918/instances",
+    "status": 500,
+    "target_service": "compute",
+    "timestamp": "2026-02-28T07:11:02.708118+00:00",
+    "troubleshooting_tips": "See [https://docs.oracle.com/iaas/Content/API/References/apierrors.htm] for more information about resolving this error. If you are unable to resolve this issue, run this CLI command with --debug option and contact Oracle support and provide them the full error message."
+}
+2026-02-28 15:11:03 创建失败，等待 30 秒后重试...
+2026-02-28 15:11:13 开始尝试创建实例...
+2026-02-28 15:12:55 创建失败：ServiceError:
+{
+    "client_version": "Oracle-PythonSDK/2.167.3, Oracle-PythonCLI/3.74.2",
+    "code": "InternalError",
+    "logging_tips": "Please run the OCI CLI command using --debug flag to find more debug information.",
+    "message": "Out of host capacity.",
+    "opc-request-id": "FC2C7DB9293E486E82A90C77732EE251/013C0F21D33AB0FE7695A269504858D6/488C6F03C96CDDFB9C2905B494B89336",
+    "operation_name": "launch_instance",
+    "request_endpoint": "POST https://iaas.us-phoenix-1.oraclecloud.com/20160918/instances",
+    "status": 500,
+    "target_service": "compute",
+    "timestamp": "2026-02-28T07:12:55.214024+00:00",
+    "troubleshooting_tips": "See [https://docs.oracle.com/iaas/Content/API/References/apierrors.htm] for more information about resolving this error. If you are unable to resolve this issue, run this CLI command with --debug option and contact Oracle support and provide them the full error message."
+}
+2026-02-28 15:12:55 创建失败，等待 30 秒后重试...
+2026-02-28 15:13:05 开始尝试创建实例...
+2026-02-28 15:14:49 创建失败：ServiceError:
+{
+    "client_version": "Oracle-PythonSDK/2.167.3, Oracle-PythonCLI/3.74.2",
+    "code": "InternalError",
+    "logging_tips": "Please run the OCI CLI command using --debug flag to find more debug information.",
+    "message": "Out of host capacity.",
+    "opc-request-id": "F72F6421407042B0A71043223CA4C1D9/44A9DA8043367B89E795A269504858A9/DCA8DF4DF0289032370605BBA2C923D8",
+    "operation_name": "launch_instance",
+    "request_endpoint": "POST https://iaas.us-phoenix-1.oraclecloud.com/20160918/instances",
+    "status": 500,
+    "target_service": "compute",
+    "timestamp": "2026-02-28T07:14:48.804466+00:00",
+    "troubleshooting_tips": "See [https://docs.oracle.com/iaas/Content/API/References/apierrors.htm] for more information about resolving this error. If you are unable to resolve this issue, run this CLI command with --debug option and contact Oracle support and provide them the full error message."
+}
+2026-02-28 15:14:49 创建失败，等待 30 秒后重试...
+2026-02-28 15:14:59 开始尝试创建实例...
+2026-02-28 15:16:42 创建失败：ServiceError:
+{
+    "client_version": "Oracle-PythonSDK/2.167.3, Oracle-PythonCLI/3.74.2",
+    "code": "InternalError",
+    "logging_tips": "Please run the OCI CLI command using --debug flag to find more debug information.",
+    "message": "Out of host capacity.",
+    "opc-request-id": "30E02B0B0DA04B02BBDE86FD2B320573/DD1AEBD688D1362C5996A269504858CE/DA8F0549D8A21CB08C3D71CFC61B100C",
+    "operation_name": "launch_instance",
+    "request_endpoint": "POST https://iaas.us-phoenix-1.oraclecloud.com/20160918/instances",
+    "status": 500,
+    "target_service": "compute",
+    "timestamp": "2026-02-28T07:16:42.110575+00:00",
+    "troubleshooting_tips": "See [https://docs.oracle.com/iaas/Content/API/References/apierrors.htm] for more information about resolving this error. If you are unable to resolve this issue, run this CLI command with --debug option and contact Oracle support and provide them the full error message."
+}
+2026-02-28 15:16:42 创建失败，等待 30 秒后重试...
+2026-02-28 15:16:52 开始尝试创建实例...
+2026-02-28 15:18:34 创建失败：ServiceError:
+{
+    "client_version": "Oracle-PythonSDK/2.167.3, Oracle-PythonCLI/3.74.2",
+    "code": "InternalError",
+    "logging_tips": "Please run the OCI CLI command using --debug flag to find more debug information.",
+    "message": "Out of host capacity.",
+    "opc-request-id": "E6E23E0116644682A81D1BDCE1E17FDC/D12B8BC34A567B45C996A26950485821/48B90F56DD938C2A7D941AA2EE0D2DA8",
+    "operation_name": "launch_instance",
+    "request_endpoint": "POST https://iaas.us-phoenix-1.oraclecloud.com/20160918/instances",
+    "status": 500,
+    "target_service": "compute",
+    "timestamp": "2026-02-28T07:18:34.294199+00:00",
+    "troubleshooting_tips": "See [https://docs.oracle.com/iaas/Content/API/References/apierrors.htm] for more information about resolving this error. If you are unable to resolve this issue, run this CLI command with --debug option and contact Oracle support and provide them the full error message."
+}
+2026-02-28 15:18:34 创建失败，等待 30 秒后重试...
+2026-02-28 15:18:44 开始尝试创建实例...
+2026-02-28 15:20:28 创建失败：ServiceError:
+{
+    "client_version": "Oracle-PythonSDK/2.167.3, Oracle-PythonCLI/3.74.2",
+    "code": "InternalError",
+    "logging_tips": "Please run the OCI CLI command using --debug flag to find more debug information.",
+    "message": "Out of host capacity.",
+    "opc-request-id": "957414F037514E6392A241C10AA85F96/7198D408316B87D23B97A269504858CA/4B61C46CE85CE38FFF305AD33C8382B6",
+    "operation_name": "launch_instance",
+    "request_endpoint": "POST https://iaas.us-phoenix-1.oraclecloud.com/20160918/instances",
+    "status": 500,
+    "target_service": "compute",
+    "timestamp": "2026-02-28T07:20:27.553857+00:00",
+    "troubleshooting_tips": "See [https://docs.oracle.com/iaas/Content/API/References/apierrors.htm] for more information about resolving this error. If you are unable to resolve this issue, run this CLI command with --debug option and contact Oracle support and provide them the full error message."
+}
+2026-02-28 15:20:28 创建失败，等待 30 秒后重试...
+2026-02-28 15:20:38 开始尝试创建实例...
+2026-02-28 15:22:20 创建失败：ServiceError:
+{
+    "client_version": "Oracle-PythonSDK/2.167.3, Oracle-PythonCLI/3.74.2",
+    "code": "InternalError",
+    "logging_tips": "Please run the OCI CLI command using --debug flag to find more debug information.",
+    "message": "Out of host capacity.",
+    "opc-request-id": "9C51462FE68945259F9346FEC714637B/52D1626B14713F48AB97A269504858DF/80C76B5FC3B5D1F7113E797D385DC0DB",
+    "operation_name": "launch_instance",
+    "request_endpoint": "POST https://iaas.us-phoenix-1.oraclecloud.com/20160918/instances",
+    "status": 500,
+    "target_service": "compute",
+    "timestamp": "2026-02-28T07:22:20.175572+00:00",
+    "troubleshooting_tips": "See [https://docs.oracle.com/iaas/Content/API/References/apierrors.htm] for more information about resolving this error. If you are unable to resolve this issue, run this CLI command with --debug option and contact Oracle support and provide them the full error message."
+}
+2026-02-28 15:22:20 创建失败，等待 30 秒后重试...
+2026-02-28 15:22:30 开始尝试创建实例...
+2026-02-28 15:23:39 开始循环抢机...
+2026-02-28 15:23:39 开始尝试创建实例...
+2026-02-28 15:24:14 创建失败：ServiceError:
+{
+    "client_version": "Oracle-PythonSDK/2.167.3, Oracle-PythonCLI/3.74.2",
+    "code": "InternalError",
+    "logging_tips": "Please run the OCI CLI command using --debug flag to find more debug information.",
+    "message": "Out of host capacity.",
+    "opc-request-id": "09C5EECBC83445008C37F3CD4FB2CFC9/2A9CA70CD08A925E1D98A26950485838/DA63F2C16FCFDDF38B36BBF1679CFE6F",
+    "operation_name": "launch_instance",
+    "request_endpoint": "POST https://iaas.us-phoenix-1.oraclecloud.com/20160918/instances",
+    "status": 500,
+    "target_service": "compute",
+    "timestamp": "2026-02-28T07:24:14.490517+00:00",
+    "troubleshooting_tips": "See [https://docs.oracle.com/iaas/Content/API/References/apierrors.htm] for more information about resolving this error. If you are unable to resolve this issue, run this CLI command with --debug option and contact Oracle support and provide them the full error message."
+}
+2026-02-28 15:25:22 创建失败：ServiceError:
+{
+    "client_version": "Oracle-PythonSDK/2.167.3, Oracle-PythonCLI/3.74.2",
+    "code": "InternalError",
+    "logging_tips": "Please run the OCI CLI command using --debug flag to find more debug information.",
+    "message": "Out of host capacity.",
+    "opc-request-id": "112521EC854A4F22B08F9EDE66D93E6C/ECF58A700112F9376198A269504858B6/C6F3F5268AC85D357652D89913B8574D",
+    "operation_name": "launch_instance",
+    "request_endpoint": "POST https://iaas.us-phoenix-1.oraclecloud.com/20160918/instances",
+    "status": 500,
+    "target_service": "compute",
+    "timestamp": "2026-02-28T07:25:22.174321+00:00",
+    "troubleshooting_tips": "See [https://docs.oracle.com/iaas/Content/API/References/apierrors.htm] for more information about resolving this error. If you are unable to resolve this issue, run this CLI command with --debug option and contact Oracle support and provide them the full error message."
+}
+2026-02-28 15:25:22 创建失败，等待 10 秒后重试...
+2026-02-28 15:25:32 开始尝试创建实例...
+2026-02-28 15:27:16 创建失败：ServiceError:
+{
+    "client_version": "Oracle-PythonSDK/2.167.3, Oracle-PythonCLI/3.74.2",
+    "code": "InternalError",
+    "logging_tips": "Please run the OCI CLI command using --debug flag to find more debug information.",
+    "message": "Out of host capacity.",
+    "opc-request-id": "D97E331B10E942809D6E434185C62CE0/5331E0806B25E2F3D298A269504858E7/611F38672ECE81529B07A07831A14195",
+    "operation_name": "launch_instance",
+    "request_endpoint": "POST https://iaas.us-phoenix-1.oraclecloud.com/20160918/instances",
+    "status": 500,
+    "target_service": "compute",
+    "timestamp": "2026-02-28T07:27:15.622704+00:00",
+    "troubleshooting_tips": "See [https://docs.oracle.com/iaas/Content/API/References/apierrors.htm] for more information about resolving this error. If you are unable to resolve this issue, run this CLI command with --debug option and contact Oracle support and provide them the full error message."
+}
+2026-02-28 15:27:16 创建失败，等待 10 秒后重试...
+2026-02-28 15:27:26 开始尝试创建实例...
+2026-02-28 15:29:09 创建失败：ServiceError:
+{
+    "client_version": "Oracle-PythonSDK/2.167.3, Oracle-PythonCLI/3.74.2",
+    "code": "InternalError",
+    "logging_tips": "Please run the OCI CLI command using --debug flag to find more debug information.",
+    "message": "Out of host capacity.",
+    "opc-request-id": "A0C4F4F9350441B1AA43CD97B00C4CB2/14509AAA3B2E637D4499A26950485862/A7AD28A388E20858245A68A1CEC4BF3A",
+    "operation_name": "launch_instance",
+    "request_endpoint": "POST https://iaas.us-phoenix-1.oraclecloud.com/20160918/instances",
+    "status": 500,
+    "target_service": "compute",
+    "timestamp": "2026-02-28T07:29:09.052849+00:00",
+    "troubleshooting_tips": "See [https://docs.oracle.com/iaas/Content/API/References/apierrors.htm] for more information about resolving this error. If you are unable to resolve this issue, run this CLI command with --debug option and contact Oracle support and provide them the full error message."
+}
+2026-02-28 15:29:09 创建失败，等待 10 秒后重试...
+2026-02-28 15:29:19 开始尝试创建实例...
+2026-02-28 15:31:02 创建失败：ServiceError:
+{
+    "client_version": "Oracle-PythonSDK/2.167.3, Oracle-PythonCLI/3.74.2",
+    "code": "InternalError",
+    "logging_tips": "Please run the OCI CLI command using --debug flag to find more debug information.",
+    "message": "Out of host capacity.",
+    "opc-request-id": "FB0A9B7F322F417CA6E9F79CB3756000/380E6F62AD96946EB499A2695048583F/BF2936104F8DA99AD5F3FBC0E8503B88",
+    "operation_name": "launch_instance",
+    "request_endpoint": "POST https://iaas.us-phoenix-1.oraclecloud.com/20160918/instances",
+    "status": 500,
+    "target_service": "compute",
+    "timestamp": "2026-02-28T07:31:01.581687+00:00",
+    "troubleshooting_tips": "See [https://docs.oracle.com/iaas/Content/API/References/apierrors.htm] for more information about resolving this error. If you are unable to resolve this issue, run this CLI command with --debug option and contact Oracle support and provide them the full error message."
+}
+2026-02-28 15:31:02 创建失败，等待 10 秒后重试...
+2026-02-28 15:31:12 开始尝试创建实例...
+2026-02-28 15:32:37 开始循环抢机...
+2026-02-28 15:32:37 开始尝试创建实例（轮询 AD1/AD2/AD3）...
+2026-02-28 15:32:37 尝试 AD: GrMI:PHX-AD-1
+2026-02-28 15:34:22 实例创建成功！
+2026-02-28 15:34:22 抢机成功，退出循环。
+2026-02-28 15:35:31 开始循环抢机...
+2026-02-28 15:35:31 开始尝试创建实例（轮询 AD1/AD2/AD3）...
+2026-02-28 15:35:31 尝试 AD: GrMI:PHX-AD-1
+2026-02-28 15:37:15 实例创建成功！
+2026-02-28 15:37:15 抢机成功，退出循环。
+2026-02-28 15:43:01 开始循环抢机...
+2026-02-28 15:43:01 开始尝试创建实例（轮询 AD1/AD2/AD3）...
+2026-02-28 15:43:01 尝试 AD: GrMI:PHX-AD-2
+2026-02-28 15:44:44 AD GrMI:PHX-AD-2 无容量，继续尝试下一个 AD...
+2026-02-28 15:44:44 尝试 AD: GrMI:PHX-AD-3
+2026-02-28 15:45:10 开始循环抢机...
+2026-02-28 15:45:10 开始尝试创建实例（轮询 AD2/AD1/AD3）...
+2026-02-28 15:45:10 尝试 AD: GrMI:PHX-AD-2
+2026-02-28 15:46:07 开始循环抢机...
+2026-02-28 15:46:07 开始尝试创建实例（轮询 AD2/AD3/AD1）...
+2026-02-28 15:46:07 尝试 AD: GrMI:PHX-AD-2
+2026-02-28 15:46:28 AD GrMI:PHX-AD-3 无容量，继续尝试下一个 AD...
+2026-02-28 15:46:28 尝试 AD: GrMI:PHX-AD-1
+2026-02-28 15:46:54 其他错误：ServiceError:
+{
+    "client_version": "Oracle-PythonSDK/2.167.3, Oracle-PythonCLI/3.74.2",
+    "code": "TooManyRequests",
+    "logging_tips": "Please run the OCI CLI command using --debug flag to find more debug information.",
+    "message": "Too many requests for the user",
+    "opc-request-id": "A4F64B14D25E48E0A7A5E032404BFA2B/9C93610A53F5C5E36D9DA2695048587E/3FEC49E54D616419A7ABB42DA141FA67",
+    "operation_name": "launch_instance",
+    "request_endpoint": "POST https://iaas.us-phoenix-1.oraclecloud.com/20160918/instances",
+    "status": 429,
+    "target_service": "compute",
+    "timestamp": "2026-02-28T07:46:53.493399+00:00",
+    "troubleshooting_tips": "See [https://docs.oracle.com/iaas/Content/API/References/apierrors.htm] for more information about resolving this error. If you are unable to resolve this issue, run this CLI command with --debug option and contact Oracle support and provide them the full error message."
+}
+2026-02-28 15:46:54 尝试 AD: GrMI:PHX-AD-3
+2026-02-28 15:47:51 AD GrMI:PHX-AD-2 无容量，继续尝试下一个 AD...
+2026-02-28 15:47:51 尝试 AD: GrMI:PHX-AD-3
+2026-02-28 15:48:12 AD GrMI:PHX-AD-1 无容量，继续尝试下一个 AD...
+2026-02-28 15:48:12 三个 AD 都失败，本轮结束。
+2026-02-28 15:48:37 AD GrMI:PHX-AD-3 无容量，继续尝试下一个 AD...
+2026-02-28 15:48:37 尝试 AD: GrMI:PHX-AD-1
+2026-02-28 15:49:35 AD GrMI:PHX-AD-3 无容量，继续尝试下一个 AD...
+2026-02-28 15:49:35 尝试 AD: GrMI:PHX-AD-1
+2026-02-28 15:50:20 AD GrMI:PHX-AD-1 无容量，继续尝试下一个 AD...
+2026-02-28 15:50:20 三个 AD 都失败，本轮结束。
+2026-02-28 15:51:17 AD GrMI:PHX-AD-1 无容量，继续尝试下一个 AD...
+2026-02-28 15:51:18 其他错误：ServiceError:
+{
+    "client_version": "Oracle-PythonSDK/2.167.3, Oracle-PythonCLI/3.74.2",
+    "code": "InternalError",
+    "logging_tips": "Please run the OCI CLI command using --debug flag to find more debug information.",
+    "message": "Out of host capacity.",
+    "opc-request-id": "35EC747E182F48C88737091CA03EC2E3/12F60DC8EC699B4A749EA2695048581E/83143FAE0A577871A9A61A5722CE81B6",
+    "operation_name": "launch_instance",
+    "request_endpoint": "POST https://iaas.us-phoenix-1.oraclecloud.com/20160918/instances",
+    "status": 500,
+    "target_service": "compute",
+    "timestamp": "2026-02-28T07:51:17.525921+00:00",
+    "troubleshooting_tips": "See [https://docs.oracle.com/iaas/Content/API/References/apierrors.htm] for more information about resolving this error. If you are unable to resolve this issue, run this CLI command with --debug option and contact Oracle support and provide them the full error message."
+}
+2026-02-28 15:51:18 创建失败，等待 10 秒后重试...
+2026-02-28 15:51:25 开始循环抢机...
+2026-02-28 15:51:25 开始尝试创建实例（轮询 AD2/AD3/AD1）...
+2026-02-28 15:51:25 尝试 AD: GrMI:PHX-AD-2
+2026-02-28 15:53:07 AD GrMI:PHX-AD-2 无容量，继续尝试下一个 AD...
+2026-02-28 15:53:07 尝试 AD: GrMI:PHX-AD-3
+2026-02-28 15:54:51 AD GrMI:PHX-AD-3 无容量，继续尝试下一个 AD...
+2026-02-28 15:54:51 尝试 AD: GrMI:PHX-AD-1
+2026-02-28 15:56:35 AD GrMI:PHX-AD-1 无容量，继续尝试下一个 AD...
+2026-02-28 15:56:35 三个 AD 都失败，本轮结束，随机等待 2 秒...
+2026-02-28 15:56:37 创建失败，等待 10 秒后重试...
+2026-02-28 15:56:47 开始尝试创建实例（轮询 AD2/AD3/AD1）...
+2026-02-28 15:56:47 尝试 AD: GrMI:PHX-AD-2
+2026-02-28 15:58:30 AD GrMI:PHX-AD-2 无容量，继续尝试下一个 AD...
+2026-02-28 15:58:30 尝试 AD: GrMI:PHX-AD-3
+2026-02-28 16:00:14 AD GrMI:PHX-AD-3 无容量，继续尝试下一个 AD...
+2026-02-28 16:00:14 尝试 AD: GrMI:PHX-AD-1
+2026-02-28 16:00:19 开始尝试创建实例（轮询 AD2/AD3/AD1）...
+2026-02-28 16:00:19 尝试 AD: GrMI:PHX-AD-2
+2026-02-28 16:01:58 AD GrMI:PHX-AD-1 无容量，继续尝试下一个 AD...
+2026-02-28 16:01:58 三个 AD 都失败，本轮结束，随机等待 4 秒...
+2026-02-28 16:02:03 AD GrMI:PHX-AD-2 无容量，继续尝试下一个 AD...
+2026-02-28 16:02:03 尝试 AD: GrMI:PHX-AD-3
+2026-02-28 16:03:47 AD GrMI:PHX-AD-3 无容量，继续尝试下一个 AD...
+2026-02-28 16:03:47 尝试 AD: GrMI:PHX-AD-1
+2026-02-28 16:05:30 AD GrMI:PHX-AD-1 无容量，继续尝试下一个 AD...
+2026-02-28 16:05:30 三个 AD 都失败，本轮结束，随机等待 4 秒...
+2026-02-28 16:05:44 开始尝试创建实例（轮询 AD2/AD3/AD1）...
+2026-02-28 16:05:44 尝试 AD: GrMI:PHX-AD-2
+2026-02-28 16:07:28 AD GrMI:PHX-AD-2 无容量，继续尝试下一个 AD...
+2026-02-28 16:07:28 尝试 AD: GrMI:PHX-AD-3
+2026-02-28 16:09:12 AD GrMI:PHX-AD-3 无容量，继续尝试下一个 AD...
+2026-02-28 16:09:12 尝试 AD: GrMI:PHX-AD-1
+2026-02-28 16:10:56 AD GrMI:PHX-AD-1 无容量，继续尝试下一个 AD...
+2026-02-28 16:10:56 三个 AD 都失败，本轮结束，随机等待 3 秒...
+2026-02-28 16:11:09 开始尝试创建实例（轮询 AD2/AD3/AD1）...
+2026-02-28 16:11:09 尝试 AD: GrMI:PHX-AD-2
+2026-02-28 16:12:50 AD GrMI:PHX-AD-2 无容量，继续尝试下一个 AD...
+2026-02-28 16:12:50 尝试 AD: GrMI:PHX-AD-3
+2026-02-28 16:14:35 AD GrMI:PHX-AD-3 无容量，继续尝试下一个 AD...
+2026-02-28 16:14:35 尝试 AD: GrMI:PHX-AD-1
+2026-02-28 16:16:18 AD GrMI:PHX-AD-1 无容量，继续尝试下一个 AD...
+2026-02-28 16:16:18 三个 AD 都失败，本轮结束，随机等待 4 秒...
+2026-02-28 16:16:32 开始尝试创建实例（轮询 AD2/AD3/AD1）...
+2026-02-28 16:16:32 尝试 AD: GrMI:PHX-AD-2
+2026-02-28 16:18:16 AD GrMI:PHX-AD-2 无容量，继续尝试下一个 AD...
+2026-02-28 16:18:16 尝试 AD: GrMI:PHX-AD-3
+2026-02-28 16:19:58 AD GrMI:PHX-AD-3 无容量，继续尝试下一个 AD...
+2026-02-28 16:19:58 尝试 AD: GrMI:PHX-AD-1
+2026-02-28 16:21:42 AD GrMI:PHX-AD-1 无容量，继续尝试下一个 AD...
+2026-02-28 16:21:42 三个 AD 都失败，本轮结束，随机等待 4 秒...
+2026-02-28 16:21:56 开始尝试创建实例（轮询 AD2/AD3/AD1）...
+2026-02-28 16:21:56 尝试 AD: GrMI:PHX-AD-2
+2026-02-28 16:23:39 AD GrMI:PHX-AD-2 无容量，继续尝试下一个 AD...
+2026-02-28 16:23:39 尝试 AD: GrMI:PHX-AD-3
+2026-02-28 16:25:23 AD GrMI:PHX-AD-3 无容量，继续尝试下一个 AD...
+2026-02-28 16:25:23 尝试 AD: GrMI:PHX-AD-1
+2026-02-28 16:27:09 AD GrMI:PHX-AD-1 无容量，继续尝试下一个 AD...
+2026-02-28 16:27:09 三个 AD 都失败，本轮结束，随机等待 5 秒...
+2026-02-28 16:27:24 开始尝试创建实例（轮询 AD2/AD3/AD1）...
+2026-02-28 16:27:24 尝试 AD: GrMI:PHX-AD-2
+2026-02-28 16:29:07 AD GrMI:PHX-AD-2 无容量，继续尝试下一个 AD...
+2026-02-28 16:29:07 尝试 AD: GrMI:PHX-AD-3
+2026-02-28 16:30:48 AD GrMI:PHX-AD-3 无容量，继续尝试下一个 AD...
+2026-02-28 16:30:48 尝试 AD: GrMI:PHX-AD-1
+2026-02-28 16:32:32 AD GrMI:PHX-AD-1 无容量，继续尝试下一个 AD...
+2026-02-28 16:32:32 三个 AD 都失败，本轮结束，随机等待 4 秒...
+2026-02-28 16:32:46 开始尝试创建实例（轮询 AD2/AD3/AD1）...
+2026-02-28 16:32:46 尝试 AD: GrMI:PHX-AD-2
+2026-02-28 16:34:29 AD GrMI:PHX-AD-2 无容量，继续尝试下一个 AD...
+2026-02-28 16:34:29 尝试 AD: GrMI:PHX-AD-3
+2026-02-28 16:36:13 AD GrMI:PHX-AD-3 无容量，继续尝试下一个 AD...
+2026-02-28 16:36:13 尝试 AD: GrMI:PHX-AD-1
+2026-02-28 16:37:57 AD GrMI:PHX-AD-1 无容量，继续尝试下一个 AD...
+2026-02-28 16:37:57 三个 AD 都失败，本轮结束，随机等待 2 秒...
+2026-02-28 16:38:09 开始尝试创建实例（轮询 AD2/AD3/AD1）...
+2026-02-28 16:38:09 尝试 AD: GrMI:PHX-AD-2
+2026-02-28 16:39:52 AD GrMI:PHX-AD-2 无容量，继续尝试下一个 AD...
+2026-02-28 16:39:52 尝试 AD: GrMI:PHX-AD-3
+2026-02-28 16:41:34 AD GrMI:PHX-AD-3 无容量，继续尝试下一个 AD...
+2026-02-28 16:41:34 尝试 AD: GrMI:PHX-AD-1
+2026-02-28 16:43:19 AD GrMI:PHX-AD-1 无容量，继续尝试下一个 AD...
+2026-02-28 16:43:19 三个 AD 都失败，本轮结束，随机等待 3 秒...
+2026-02-28 16:43:32 开始尝试创建实例（轮询 AD2/AD3/AD1）...
+2026-02-28 16:43:32 尝试 AD: GrMI:PHX-AD-2
+2026-02-28 16:45:16 AD GrMI:PHX-AD-2 无容量，继续尝试下一个 AD...
+2026-02-28 16:45:16 尝试 AD: GrMI:PHX-AD-3
+2026-02-28 16:47:01 AD GrMI:PHX-AD-3 无容量，继续尝试下一个 AD...
+2026-02-28 16:47:01 尝试 AD: GrMI:PHX-AD-1
+2026-02-28 16:48:45 AD GrMI:PHX-AD-1 无容量，继续尝试下一个 AD...
+2026-02-28 16:48:45 三个 AD 都失败，本轮结束，随机等待 5 秒...
+2026-02-28 16:49:00 开始尝试创建实例（轮询 AD2/AD3/AD1）...
+2026-02-28 16:49:00 尝试 AD: GrMI:PHX-AD-2
+2026-02-28 16:50:43 AD GrMI:PHX-AD-2 无容量，继续尝试下一个 AD...
+2026-02-28 16:50:43 尝试 AD: GrMI:PHX-AD-3
+2026-02-28 16:52:28 AD GrMI:PHX-AD-3 无容量，继续尝试下一个 AD...
+2026-02-28 16:52:28 尝试 AD: GrMI:PHX-AD-1
+2026-02-28 16:54:11 AD GrMI:PHX-AD-1 无容量，继续尝试下一个 AD...
+2026-02-28 16:54:11 三个 AD 都失败，本轮结束，随机等待 2 秒...
+2026-02-28 16:54:23 开始尝试创建实例（轮询 AD2/AD3/AD1）...
+2026-02-28 16:54:23 尝试 AD: GrMI:PHX-AD-2
+2026-02-28 16:56:05 AD GrMI:PHX-AD-2 无容量，继续尝试下一个 AD...
+2026-02-28 16:56:05 尝试 AD: GrMI:PHX-AD-3
+2026-02-28 16:57:47 API 限流（429），等待 3 秒后继续...
+2026-02-28 16:57:50 尝试 AD: GrMI:PHX-AD-1
+2026-02-28 16:59:34 AD GrMI:PHX-AD-1 无容量，继续尝试下一个 AD...
+2026-02-28 16:59:34 三个 AD 都失败，本轮结束，随机等待 5 秒...
+2026-02-28 16:59:49 开始尝试创建实例（轮询 AD2/AD3/AD1）...
+2026-02-28 16:59:49 尝试 AD: GrMI:PHX-AD-2
+2026-02-28 17:01:32 AD GrMI:PHX-AD-2 无容量，继续尝试下一个 AD...
+2026-02-28 17:01:32 尝试 AD: GrMI:PHX-AD-3
+2026-02-28 17:03:15 AD GrMI:PHX-AD-3 无容量，继续尝试下一个 AD...
+2026-02-28 17:03:15 尝试 AD: GrMI:PHX-AD-1
+2026-02-28 17:04:59 AD GrMI:PHX-AD-1 无容量，继续尝试下一个 AD...
+2026-02-28 17:04:59 三个 AD 都失败，本轮结束，随机等待 3 秒...
+2026-02-28 17:05:12 开始尝试创建实例（轮询 AD2/AD3/AD1）...
+2026-02-28 17:05:12 尝试 AD: GrMI:PHX-AD-2
+2026-02-28 17:06:56 AD GrMI:PHX-AD-2 无容量，继续尝试下一个 AD...
+2026-02-28 17:06:56 尝试 AD: GrMI:PHX-AD-3
+2026-02-28 17:08:39 AD GrMI:PHX-AD-3 无容量，继续尝试下一个 AD...
+2026-02-28 17:08:39 尝试 AD: GrMI:PHX-AD-1
+2026-02-28 17:10:25 AD GrMI:PHX-AD-1 无容量，继续尝试下一个 AD...
+2026-02-28 17:10:25 三个 AD 都失败，本轮结束，随机等待 3 秒...
+2026-02-28 17:10:38 开始尝试创建实例（轮询 AD2/AD3/AD1）...
+2026-02-28 17:10:38 尝试 AD: GrMI:PHX-AD-2
+2026-02-28 17:12:21 AD GrMI:PHX-AD-2 无容量，继续尝试下一个 AD...
+2026-02-28 17:12:21 尝试 AD: GrMI:PHX-AD-3
+2026-02-28 17:14:07 AD GrMI:PHX-AD-3 无容量，继续尝试下一个 AD...
+2026-02-28 17:14:07 尝试 AD: GrMI:PHX-AD-1
+2026-02-28 17:15:52 AD GrMI:PHX-AD-1 无容量，继续尝试下一个 AD...
+2026-02-28 17:15:52 三个 AD 都失败，本轮结束，随机等待 5 秒...
+2026-02-28 17:16:07 开始尝试创建实例（轮询 AD2/AD3/AD1）...
+2026-02-28 17:16:07 尝试 AD: GrMI:PHX-AD-2
+2026-02-28 17:17:50 AD GrMI:PHX-AD-2 无容量，继续尝试下一个 AD...
+2026-02-28 17:17:50 尝试 AD: GrMI:PHX-AD-3
+2026-02-28 17:19:34 AD GrMI:PHX-AD-3 无容量，继续尝试下一个 AD...
+2026-02-28 17:19:34 尝试 AD: GrMI:PHX-AD-1
+2026-02-28 17:21:18 AD GrMI:PHX-AD-1 无容量，继续尝试下一个 AD...
+2026-02-28 17:21:18 三个 AD 都失败，本轮结束，随机等待 3 秒...
+2026-02-28 17:21:31 开始尝试创建实例（轮询 AD2/AD3/AD1）...
+2026-02-28 17:21:31 尝试 AD: GrMI:PHX-AD-2
+2026-02-28 17:23:15 AD GrMI:PHX-AD-2 无容量，继续尝试下一个 AD...
+2026-02-28 17:23:15 尝试 AD: GrMI:PHX-AD-3
+2026-02-28 17:25:00 AD GrMI:PHX-AD-3 无容量，继续尝试下一个 AD...
+2026-02-28 17:25:00 尝试 AD: GrMI:PHX-AD-1
+2026-02-28 17:26:45 AD GrMI:PHX-AD-1 无容量，继续尝试下一个 AD...
+2026-02-28 17:26:45 三个 AD 都失败，本轮结束，随机等待 2 秒...
+2026-02-28 17:26:57 开始尝试创建实例（轮询 AD2/AD3/AD1）...
+2026-02-28 17:26:57 尝试 AD: GrMI:PHX-AD-2
